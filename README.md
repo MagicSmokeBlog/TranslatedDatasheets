@@ -6,7 +6,7 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 | Image                                               | Datasheet                                                              |
 |-----------------------------------------------------|------------------------------------------------------------------------|
-| ![IV-19](./datasheet/IV-19 Indicator/thumbnail.png) | [IV19 (ИВ-19)](./datasheet/IV-19-Indicator/IV-19-(ИВ-19)-Datasheet.md) | 
+| ![IV-19](./datasheet/IV-19-Indicator/thumbnail.png) | [IV19 (ИВ-19)](./datasheet/IV-19-Indicator/IV-19-(ИВ-19)-Datasheet.md) | 
 
 
 ## Resources
