@@ -4,11 +4,11 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 ## Datasheets
 
-| Image                                                     | Datasheet                                                                       |
-|-----------------------------------------------------------|---------------------------------------------------------------------------------|
-| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А)](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
-| ![IV-19](datasheet/IV-19-Indicator/thumbnail.png)         | [IV19 (ИВ-19)](./datasheet/IV-19-Indicator/IV-19-(ИВ-19)-Datasheet.md)          | 
-
+| Image                                                     | Datasheet                                                                                 |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)     | [8LO39V-(8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8L039V-(8ЛО39В)-Datasheet.md)       | 
+| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
+| ![IV-19](datasheet/IV-19-Indicator/thumbnail.png)         | [IV19 (ИВ-19) Indicator](./datasheet/IV-19-Indicator/IV-19-(ИВ-19)-Datasheet.md)          | 
 
 ## Resources
 
@@ -38,3 +38,8 @@ abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdf
 Using option `--pdfTextExportMode TextWithPictures` resulted in a PDF document with selectable text, however the text
 was not visible.
 
+### Resource R02
+
+| Resource   | Source | Remark |
+|------------|--------|--------|
+| 8LO39V.pdf |        |        |
