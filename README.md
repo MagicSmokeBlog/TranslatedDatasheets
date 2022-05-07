@@ -43,3 +43,8 @@ was not visible.
 | Resource   | Source | Remark |
 |------------|--------|--------|
 | 8LO39V.pdf |        |        |
+
+
+## License
+
+This project is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/) license.
