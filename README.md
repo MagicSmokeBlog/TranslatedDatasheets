@@ -7,7 +7,7 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 |                           Image                            | Datasheet                                                                                 |
 |:----------------------------------------------------------:|-------------------------------------------------------------------------------------------|
 |   ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)    | [8LO39V-(8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8L039V-(8ЛО39В)-Datasheet.md)       | 
-|      ![IDL3](datasheet/IDL3-(ИЛД3)-CRT/thumbnail.png)      | [IDL3 (ИЛД3) CRT](./datasheet/IDL3-(ИЛД3)-CRT/IDL3-(илдз)-Datasheet.md)                   | 
+|      ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)      | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                   | 
 | ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)  | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
 |   ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)   | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | 
 | ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)  | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)   | 
@@ -50,7 +50,7 @@ was not visible.
 
 | Resource                                            | Source | Remark |
 |-----------------------------------------------------|--------|--------|
-| [IDL3 (scan).pdf](./resource/R03/IDL3%20(scan).pdf) |        |        |
+| [ILD3 (scan).pdf](./resource/R03/ILD3%20(scan).pdf) |        |        |
 
 
 #### Notes
@@ -58,13 +58,13 @@ was not visible.
 Command to convert the scanned document to plain text:
 
 ```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 'IDL3 (scan).pdf' -of 'IDL3 (ocr).txt'
+abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 'ILD3 (scan).pdf' -of 'ILD3 (ocr).txt'
 ```
 
 Command to convert the scanned document to PDF with selectable text:
 
 ```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 'IDL3 (scan).pdf' -of 'IDL3 (ocr).pdf'
+abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 'ILD3 (scan).pdf' -of 'ILD3 (ocr).pdf'
 ```
 
 ## License

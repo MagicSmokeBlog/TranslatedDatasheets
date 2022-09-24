@@ -1,8 +1,8 @@
-# INDICATOR IDL3-S
+# INDICATOR ILD3-S
 
 ## Summary
 
-Vacuum luminescent indicator IDL3-S single high-voltage with oxide cathode indirect filament, designed to work in
+Vacuum luminescent indicator ILD3-S single high-voltage with oxide cathode indirect filament, designed to work in
 large-sized light boards for collective use to reproduce color television and other images. Type of climatic performance
 UHL2.
 
@@ -50,7 +50,7 @@ Precious metals are not contained.
 
 ## Acceptance information
 
-The IDL3-S indicator corresponds to the technical conditions ОДО. 339. 517 ТУ.
+The ILD3-S indicator corresponds to the technical conditions ОДО. 339. 517 ТУ.
 
 ## Operating Instructions
 
