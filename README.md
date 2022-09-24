@@ -9,7 +9,7 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 | ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)     | [8LO39V-(8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8L039V-(8ЛО39В)-Datasheet.md)       | 
 | ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
 | ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)    | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | 
-| ![IV-19](datasheet/IV-19-Indicator/thumbnail.png)         | [IV-19 (ИВ-19) Indicator](./datasheet/IV-19-Indicator/IV-19-(ИВ-19)-Datasheet.md)         | 
+| ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)         | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)         | 
 
 ## Resources
 
