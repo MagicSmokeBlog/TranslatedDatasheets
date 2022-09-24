@@ -53,6 +53,20 @@ was not visible.
 | [IDL3 (scan).pdf](./resource/R03/IDL3%20(scan).pdf) |        |        |
 
 
+#### Notes
+
+Command to convert the scanned document to plain text:
+
+```shell
+abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 'IDL3 (scan).pdf' -of 'IDL3 (ocr).txt'
+```
+
+Command to convert the scanned document to PDF with selectable text:
+
+```shell
+abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 'IDL3 (scan).pdf' -of 'IDL3 (ocr).pdf'
+```
+
 ## License
 
 This project is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ](https://creativecommons.org/licenses/by-sa/4.0/) license.
