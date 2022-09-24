@@ -4,23 +4,24 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 ## Datasheets
 
-| Image                                                     | Datasheet                                                                                 |
-|-----------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)     | [8LO39V-(8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8L039V-(8ЛО39В)-Datasheet.md)       | 
-| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
-| ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)    | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | 
-| ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)         | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)         | 
+|                           Image                            | Datasheet                                                                                 |
+|:----------------------------------------------------------:|-------------------------------------------------------------------------------------------|
+|   ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)    | [8LO39V-(8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8L039V-(8ЛО39В)-Datasheet.md)       | 
+|      ![IDL3](datasheet/IDL3-(ИЛД3)-CRT/thumbnail.png)      | [IDL3 (ИЛД3) CRT](./datasheet/IDL3-(ИЛД3)-CRT/IDL3-(илдз)-Datasheet.md)                   | 
+| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)  | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | 
+|   ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)   | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | 
+| ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)  | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)   | 
 
 ## Resources
 
 ### Resource R01
 
-| Resource                                 | Source                                                                                           | Remark                                                                                     |
-|------------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| Знакосинтезирующие Индикаторы.djvu       | [russian-book-0001.djvu](http://www.tube-tester.com/sites/nixie/dat_arch/russian-book-0001.djvu) | [Dieter’s Nixie Tube Data Archive](http://www.tube-tester.com/sites/nixie/nixie-tubes.htm) |
-| Знакосинтезирующие Индикаторы (scan).pdf | [DjVu to  PDF](https://djvu2pdf.com)                                                             | Free online DjVu to PDF converter                                                          |
-| Знакосинтезирующие Индикаторы (ocr).txt  | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
-| Знакосинтезирующие Индикаторы (ocr).pdf  | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
+| Resource                                                                                               | Source                                                                                           | Remark                                                                                     |
+|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [Знакосинтезирующие Индикаторы.djvu](./resource/R01/Знакосинтезирующие%20Индикаторы.djvu)              | [russian-book-0001.djvu](http://www.tube-tester.com/sites/nixie/dat_arch/russian-book-0001.djvu) | [Dieter’s Nixie Tube Data Archive](http://www.tube-tester.com/sites/nixie/nixie-tubes.htm) |
+| [Знакосинтезирующие Индикаторы (scan).pdf](./resource/R01/Знакосинтезирующие%20Индикаторы%20(ocr).pdf) | [DjVu to  PDF](https://djvu2pdf.com)                                                             | Free online DjVu to PDF converter                                                          |
+| [Знакосинтезирующие Индикаторы (ocr).txt](./resource/R01/Знакосинтезирующие%20Индикаторы%20(ocr).txt)  | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
+| [Знакосинтезирующие Индикаторы (ocr).pdf](./resource/R01/Знакосинтезирующие%20Индикаторы%20(scan).pdf) | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
 
 #### Notes
 
@@ -41,9 +42,15 @@ was not visible.
 
 ### Resource R02
 
-| Resource   | Source | Remark |
-|------------|--------|--------|
-| 8LO39V.pdf |        |        |
+| Resource                              | Source | Remark |
+|---------------------------------------|--------|--------|
+| [8LO39V.pdf](resource/R02/8LO39V.pdf) |        |        |
+
+### Resource R03
+
+| Resource                                            | Source | Remark |
+|-----------------------------------------------------|--------|--------|
+| [IDL3 (scan).pdf](./resource/R03/IDL3%20(scan).pdf) |        |        |
 
 
 ## License
