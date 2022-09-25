@@ -6,11 +6,11 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 |                           Image                           | Datasheet                                                                                 | Resource             |
 |:---------------------------------------------------------:|-------------------------------------------------------------------------------------------|----------------------|
-|   ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)   | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)       | [R02](#Resource R02) |
-|     ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)      | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                   | [R03](#Resource R03) |
-| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | [R01](#Resource R01) |
-|  ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)   | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | [R01](#Resource R01) |
-| ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png) | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)   | [R01](#Resource R01) |
+|   ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)   | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)       | [R02](#resource-r02) |
+|     ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)      | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                   | [R03](#resource-r03) |
+| ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png) | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md) | [R01](#resource-r01) |
+|  ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)   | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)         | [R01](#resource-r01) |
+| ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png) | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)   | [R01](#resource-r01) |
 
 ## Resources
 
