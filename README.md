@@ -84,6 +84,11 @@ Command to convert the scanned document to PDF with selectable text:
 abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if ILD3-scan.pdf -of ILD3-ocr.pdf
 ```
 
+## Contributing
+
+Contributions are very appreciated. Either, make a pull request with an original datasheet in Russian and a translation
+in English, or mail the documents to [The Improvement Guy](mailto:magicsmokeblog@gmail.com).
+
 ## License
 
 This project is licensed under
