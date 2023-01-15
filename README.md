@@ -89,10 +89,10 @@ abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdf
 Contributions are very appreciated. Contributing to this project a fantastic  way of sharing your work and effort of
 translating a datasheet from Russian or any other language into English with other electronic enthusiasts.
 Either make a pull request with an original datasheet and a translation
-in English, or mail the documents to [Magic Smoke Blog](mailto:magicsmokeblog@gmail.com) and we will add your
+in English, or mail the documents to [Magic Smoke Blog](mailto:magicsmokeblog@gmail.com), and we will add your
 translation to this project.
 
 ## License
 
 This project is licensed under
-the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
+the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
