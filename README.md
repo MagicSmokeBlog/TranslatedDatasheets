@@ -6,7 +6,8 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 |                                 Image                                 | Datasheet                                                                                                       | Resource             |
 |:---------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------|----------------------|
-|         ![8LO39](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                             | [R02](#resource-r02) |
+|          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)                                   | [R05](#resource-r05) |
+|        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                             | [R02](#resource-r02) |
 |           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                         | [R03](#resource-r03) |
 |       ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)       | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md)                       | [R01](#resource-r01) |
 |        ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)         | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)                               | [R01](#resource-r01) |
@@ -105,6 +106,28 @@ Command to convert the scanned document to PDF with selectable text:
 
 ```shell
 abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if FEU-115-scan.pdf -of FEU-115-ocr.pdf
+```
+
+### Resource R05
+
+| Resource                                        | Source                                      | Remark                                |
+|-------------------------------------------------|---------------------------------------------|---------------------------------------|
+| [7LO1M-scan.pdf](./resource/R05/7LO1M-scan.pdf) |                                             | Scan of document attached to the tube | 
+| [7LO1M-ocr.txt](./resource/R05/7LO1M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [7LO1M-ocr.pdf](./resource/R05/7LO1M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+
+#### Notes
+
+Command to convert the scanned document to plain text:
+
+```shell
+abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 7LO1M-scan.pdf -of 7LO1M-ocr.txt
+```
+
+Command to convert the scanned document to PDF with selectable text:
+
+```shell
+abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 7LO1M-scan.pdf -of 7LO1M-ocr.pdf
 ```
 
 
