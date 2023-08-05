@@ -36,7 +36,7 @@ operation is not allowed.
 
 ## 3 Scheme of connecting the electrodes of the tube with the pins of the base
 
-![Schema](schema.png "Schema")
+![Schema1](schema1.png "Schema1")
 
 |           Pin | Name of electrodes         |
 |--------------:|----------------------------|

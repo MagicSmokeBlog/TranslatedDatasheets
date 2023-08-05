@@ -4,15 +4,15 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 ## Datasheets
 
-|                                 Image                                 | Datasheet                                                                                                       | Resource             |
-|:---------------------------------------------------------------------:|-----------------------------------------------------------------------------------------------------------------|----------------------|
-|          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)                                   | [R05](#resource-r05) |
-|        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                             | [R02](#resource-r02) |
-|           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                         | [R03](#resource-r03) |
-|       ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)       | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md)                       | [R01](#resource-r01) |
-|        ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)         | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)                               | [R01](#resource-r01) |
-|       ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)       | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)                         | [R01](#resource-r01) |
-| ![FEU-115](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/thumbnail.png) | [UEF-115 (ФЭУ-115) Photomultiplier](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/UEF-115-(ФЭУ-115)-Datasheet.md) | [R04](#resource-r04) |
+|                                 Image                                 | Datasheet                                                                                                                                        | Resource             |
+|:---------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+|          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)<br/>[Additional Data](./datasheet/7LO1M-(7ЛО1М)-CRT/Additional.md) | [R05](#resource-r05) |
+|        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                                                              | [R02](#resource-r02) |
+|           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                                                          | [R03](#resource-r03) |
+|       ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)       | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md)                                                        | [R01](#resource-r01) |
+|        ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)         | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)                                                                | [R01](#resource-r01) |
+|       ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)       | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)                                                          | [R01](#resource-r01) |
+| ![FEU-115](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/thumbnail.png) | [UEF-115 (ФЭУ-115) Photomultiplier](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/UEF-115-(ФЭУ-115)-Datasheet.md)                                  | [R04](#resource-r04) |
 
 ## Resources
 
