@@ -18,18 +18,18 @@ short afterglow, is designed for recording processes by photographing in various
 
 ## 2 Limit values
 
-| Parameter                                                                               |    Value     | Unit |
-|-----------------------------------------------------------------------------------------|:------------:|------|
-| Filament voltage                                                                        |  5.7 - 6.9   | V    |
-| Voltage of the 3rd anode                                                                | 1800 - 3000  | V    |
-| Voltage of the 2nd anode                                                                | 1000 - 1500  | V    |
-| The voltage of the 1st anode is the highest                                             |     550      | V    |
-| Modulator voltage                                                                       |   -125 - 0   | V    |
-| Heater voltage relative to cathode                                                      |   -125 - 0   | V    |
-| Maximum resistance in the modulator circuit                                             |     1.5      | MΩ   |
-| Total resistance in the circuit of any of the deflecting plates at a frequency of 50 Hz |      1       | MΩ   |
-| Voltage between any of the deflecting plates and the 2nd anode                          | -450 - + 450 | V    |
-| Maximum ratio of the voltage on the 3rd anode to the voltage on the 2nd anode           |      2       |      |
+| Parameter                                                                               |  Min |           Max | Unit |
+|-----------------------------------------------------------------------------------------|-----:|--------------:|------|
+| Filament voltage                                                                        |  5.7 |           6.9 | V    |
+| Voltage of the 3rd anode                                                                | 1800 |          3000 | V    |
+| Voltage of the 2nd anode                                                                | 1000 |          1500 | V    |
+| Voltage of the 1st anode                                                                |      |           550 | V    |
+| Modulator voltage                                                                       | -125 |             0 | V    |
+| Heater voltage relative to cathode                                                      | -125 |             0 | V    |
+| Resistance in the modulator circuit                                                     |      |           1.5 | MΩ   |
+| Total resistance in the circuit of any of the deflecting plates at a frequency of 50 Hz |      |             1 | MΩ   |
+| Voltage between any of the deflecting plates and the 2nd anode                          | -450 |          +450 | V    |
+| Ratio of the voltage on the 3rd anode to the voltage on the 2nd anode                   |      |             2 |      |
 
 Operation of a cathode ray tube with two or more maximum permissible values of the quantities that determine the mode of
 operation is not allowed.
