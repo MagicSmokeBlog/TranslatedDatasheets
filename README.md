@@ -6,6 +6,7 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 |                                 Image                                 | Datasheet                                                                                                                                        | Resource             |
 |:---------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
+|          ![6LO1I](datasheet/6LO1I-(6ЛО1И)-CRT/thumbnail.png)          | [6LO1I (6ЛO1И) CRT](./datasheet/6LO1I-(6ЛО1И)-CRT/6LO1I-(6ЛО1И)-CRT-Datasheet.md)                                                                | [R06](#resource-r06) |
 |          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)<br/>[Additional Data](./datasheet/7LO1M-(7ЛО1М)-CRT/Additional.md) | [R05](#resource-r05) |
 |        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                                                              | [R02](#resource-r02) |
 |           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                                                          | [R03](#resource-r03) |
@@ -130,6 +131,27 @@ Command to convert the scanned document to PDF with selectable text:
 abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 7LO1M-scan.pdf -of 7LO1M-ocr.pdf
 ```
 
+### Resource R06
+
+| Resource                                        | Source                                      | Remark                                |
+|-------------------------------------------------|---------------------------------------------|---------------------------------------|
+| [6LO1I-scan.pdf](./resource/R06/6LO1I-scan.pdf) |                                             | Scan of document attached to the tube | 
+| [6LO1I-ocr.txt](./resource/R06/6LO1I-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [6LO1I-ocr.pdf](./resource/R06/6LO1I-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+
+#### Notes
+
+Command to convert the scanned document to plain text:
+
+```shell
+abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 6LO1I-scan.pdf -of 6LO1I-ocr.txt
+```
+
+Command to convert the scanned document to PDF with selectable text:
+
+```shell
+abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 6LO1I-scan.pdf -of 6LO1I-ocr.pdf
+```
 
 ## Contributing
 
