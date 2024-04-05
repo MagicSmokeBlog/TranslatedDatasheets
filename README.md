@@ -4,177 +4,17 @@ This repository contains datasheets translated into English, mostly of Ukraine s
 
 ## Datasheets
 
-|                                 Image                                 | Datasheet                                                                                                                                        | Resource             |
-|:---------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
-|          ![6LO1I](datasheet/6LO1I-(6ЛО1И)-CRT/thumbnail.png)          | [6LO1I (6ЛO1И) CRT](./datasheet/6LO1I-(6ЛО1И)-CRT/6LO1I-(6ЛО1И)-CRT-Datasheet.md)                                                                | [R06](#resource-r06) |
-|          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)<br/>[Additional Data](./datasheet/7LO1M-(7ЛО1М)-CRT/Additional.md) | [R05](#resource-r05) |
-|        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                                                              | [R02](#resource-r02) |
-|           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                                                          | [R03](#resource-r03) |
-|    ![ITM2-M](./datasheet/ITM2-M-(ИТМ2-М)-Indicator/thumbnail.png)     | [ITM2-M (ИТМ2-M) Indicator](./datasheet/ITM2-M-(ИТМ2-М)-Indicator/ITM2-M-(ИТМ2-М)-Datasheet.md)                                                  | [R07](#resource-r07) |
-|       ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)       | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md)                                                        | [R01](#resource-r01) |
-|        ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)         | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)                                                                | [R01](#resource-r01) |
-|       ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)       | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)                                                          | [R01](#resource-r01) |
-| ![FEU-115](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/thumbnail.png) | [UEF-115 (ФЭУ-115) Photomultiplier](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/UEF-115-(ФЭУ-115)-Datasheet.md)                                  | [R04](#resource-r04) |
-
-## Resources
-
-### Resource R01
-
-| Resource                                                                                       | Source                                                                                           | Remark                                                                                     |
-|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [Знакосинтезирующие-Индикаторы.djvu](./resource/R01/Знакосинтезирующие-Индикаторы.djvu)        | [russian-book-0001.djvu](http://www.tube-tester.com/sites/nixie/dat_arch/russian-book-0001.djvu) | [Dieter’s Nixie Tube Data Archive](http://www.tube-tester.com/sites/nixie/nixie-tubes.htm) |
-| [Знакосинтезирующие-Индикаторы-scan.pdf](./resource/R01/Знакосинтезирующие-Индикаторы-ocr.pdf) | [DjVu to  PDF](https://djvu2pdf.com)                                                             | Free online DjVu to PDF converter                                                          |
-| [Знакосинтезирующие-Индикаторы-ocr.txt](./resource/R01/Знакосинтезирующие-Индикаторы-ocr.txt)  | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
-| [Знакосинтезирующие-Индикаторы-ocr.pdf](./resource/R01/Знакосинтезирующие-Индикаторы-scan.pdf) | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                                      | See notes below                                                                            |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if Знакосинтезирующие-Индикаторы-scan.pdf -of Знакосинтезирующие-Индикаторы-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if Знакосинтезирующие-Индикаторы-scan.pdf -of Знакосинтезирующие-Индикаторы-ocr.pdf
-```
-
-Using option `--pdfTextExportMode TextWithPictures` resulted in a PDF document with selectable text, however the text
-was not visible.
-
-### Resource R02
-
-| Resource                                          | Source                                      | Remark                               |
-|---------------------------------------------------|---------------------------------------------|--------------------------------------|
-| [8LO39V-scan.pdf](./resource/R02/8LO39V-scan.pdf) |                                             | Scan of document attached to the CRT |
-| [8LO39V-ocr.txt](./resource/R02/8LO39V-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                      |
-| [8LO39V-ocr.pdf](./resource/R02/8LO39V-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                      |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 8LO39V-scan.pdf -of 8LO39V-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 8LO39V-scan.pdf -of 8LO39V-ocr.pdf
-```
-
-### Resource R03
-
-| Resource                                      | Source                                      | Remark                                          |
-|-----------------------------------------------|---------------------------------------------|-------------------------------------------------|
-| [ILD3-scan.pdf](./resource/R03/ILD3-scan.pdf) |                                             | eBay image of an item of a Ukraine based seller | 
-| [ILD3-ocr.txt](./resource/R03/ILD3-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                                 |
-| [ILD3-ocr.pdf](./resource/R03/ILD3-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                                 |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if ILD3-scan.pdf -of ILD3-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if ILD3-scan.pdf -of ILD3-ocr.pdf
-```
-
-### Resource R04
-
-| Resource                                            | Source                                      | Remark                                |
-|-----------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [FEU-115-scan.pdf](./resource/R04/FEU-115-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [FEU-115-ocr.txt](./resource/R04/FEU-115-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [FEU-115-ocr.pdf](./resource/R04/FEU-115-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if FEU-115-scan.pdf -of FEU-115-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if FEU-115-scan.pdf -of FEU-115-ocr.pdf
-```
-
-### Resource R05
-
-| Resource                                        | Source                                      | Remark                                |
-|-------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [7LO1M-scan.pdf](./resource/R05/7LO1M-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [7LO1M-ocr.txt](./resource/R05/7LO1M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [7LO1M-ocr.pdf](./resource/R05/7LO1M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 7LO1M-scan.pdf -of 7LO1M-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 7LO1M-scan.pdf -of 7LO1M-ocr.pdf
-```
-
-### Resource R06
-
-| Resource                                        | Source                                      | Remark                                |
-|-------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [6LO1I-scan.pdf](./resource/R06/6LO1I-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [6LO1I-ocr.txt](./resource/R06/6LO1I-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [6LO1I-ocr.pdf](./resource/R06/6LO1I-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if 6LO1I-scan.pdf -of 6LO1I-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if 6LO1I-scan.pdf -of 6LO1I-ocr.pdf
-```
-
-### Resource R07
-
-| Resource                                          | Source                                                                          | Remark                                                   |
-|---------------------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------|
-| [ITM2-M-scan.pdf](./resource/R07/ITM2-M-scan.pdf) | [ITM2Mdatasheet.PDF](https://www.industrialalchemy.org/pdf2/ITM2Mdatasheet.PDF) | [Industrial Alchemy](https://www.industrialalchemy.org/) | 
-| [ITM2-M-ocr.txt](./resource/R07/ITM2-M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
-| [ITM2-M-ocr.pdf](./resource/R07/ITM2-M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
-
-#### Notes
-
-Command to convert the scanned document to plain text:
-
-```shell
-abbyyocr11 -rl Russian -f TextUnicodeDefaults --txtUsePageBreaks --txtRetainLayout -if ITM2-M-scan.pdf -of ITM2-M-ocr.txt
-```
-
-Command to convert the scanned document to PDF with selectable text:
-
-```shell
-abbyyocr11 -rl Russian --outputFileFormat PDF --pdfFontEmbeddingMode Embed --pdfaComplianceMode Pdfa_2a --pdfTextExportMode ImageOnText --pdfScenario MaxQuality -if ITM2-M-scan.pdf -of ITM2-M-ocr.pdf
-```
+|                                 Image                                 | Datasheet                                                                                                                                        | Resource                        |
+|:---------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|          ![6LO1I](datasheet/6LO1I-(6ЛО1И)-CRT/thumbnail.png)          | [6LO1I (6ЛO1И) CRT](./datasheet/6LO1I-(6ЛО1И)-CRT/6LO1I-(6ЛО1И)-CRT-Datasheet.md)                                                                | [R06](./resource/R06/README.md) |
+|          ![7LO1M](datasheet/7LO1M-(7ЛО1М)-CRT/thumbnail.png)          | [7LO1M (7ЛО1М) CRT](./datasheet/7LO1M-(7ЛО1М)-CRT/7LO1M-(7ЛО1М)-Datasheet.md)<br/>[Additional Data](./datasheet/7LO1M-(7ЛО1М)-CRT/Additional.md) | [R05](#resource-r05)            |
+|        ![8LO39V](datasheet/8LO39V-(8ЛО39В)-CRT/thumbnail.png)         | [8LO39V (8ЛО39В) CRT](./datasheet/8LO39V-(8ЛО39В)-CRT/8LO39V-(8ЛО39В)-Datasheet.md)                                                              | [R02](./resource/R02/README.md) |
+|           ![ILD3](datasheet/ILD3-(ИЛД3)-CRT/thumbnail.png)            | [ILD3 (ИЛД3) CRT](./datasheet/ILD3-(ИЛД3)-CRT/ILD3-(илдз)-Datasheet.md)                                                                          | [R03](./resource/R03/README.md) |
+|    ![ITM2-M](./datasheet/ITM2-M-(ИТМ2-М)-Indicator/thumbnail.png)     | [ITM2-M (ИТМ2-M) Indicator](./datasheet/ITM2-M-(ИТМ2-М)-Indicator/ITM2-M-(ИТМ2-М)-Datasheet.md)                                                  | [R07](./resource/R07/README.md) |
+|       ![ITS1A](datasheet/ITS1A-(ИТС1А)-Thyratron/thumbnail.png)       | [ITS1A (ИТС1А) Thyratron](./datasheet/ITS1A-(ИТС1А)-Thyratron/ITS1A-(ИТС1А)-Datasheet.md)                                                        | [R01](./resource/R01/README.md) |
+|        ![IV-6](datasheet/IV-6-(ИВ-6)-Indicator/thumbnail.png)         | [IV-6 (ИВ-6) Indicator](datasheet/IV-6-(ИВ-6)-Indicator/IV-6-(ИВ-6)-Datasheet.md)                                                                | [R01](./resource/R01/README.md) |
+|       ![IV-19](datasheet/IV-19-(ИВ-19)-Indicator/thumbnail.png)       | [IV-19 (ИВ-19) Indicator](datasheet/IV-19-(ИВ-19)-Indicator/IV-19-(ИВ-19)-Datasheet.md)                                                          | [R01](./resource/R01/README.md) |
+| ![FEU-115](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/thumbnail.png) | [UEF-115 (ФЭУ-115) Photomultiplier](datasheet/UEF-115-(ФЭУ-115)-Photomultiplier/UEF-115-(ФЭУ-115)-Datasheet.md)                                  | [R04](./resource/R04/README.md) |
 
 ## Contributing
 
@@ -185,6 +25,6 @@ to [Magic Smoke Blog](mailto:magicsmokeblog@gmail.com), and we will add your tra
 
 ## License
 
-This project is licensed under
+This project is licensed under the terms of
 the [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 license.
