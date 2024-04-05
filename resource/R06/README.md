@@ -1,10 +1,10 @@
 # Resource R06
 
-| Resource                                        | Source                                      | Remark                                |
-|-------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [6LO1I-scan.pdf](./resource/R06/6LO1I-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [6LO1I-ocr.txt](./resource/R06/6LO1I-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [6LO1I-ocr.pdf](./resource/R06/6LO1I-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| Resource                           | Source                                      | Remark                                |
+|------------------------------------|---------------------------------------------|---------------------------------------|
+| [6LO1I-scan.pdf](./6LO1I-scan.pdf) |                                             | Scan of document attached to the tube | 
+| [6LO1I-ocr.txt](./6LO1I-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [6LO1I-ocr.pdf](./6LO1I-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
 
 ## Notes
 

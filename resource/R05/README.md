@@ -2,9 +2,9 @@
 
 | Resource                                        | Source                                      | Remark                                |
 |-------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [7LO1M-scan.pdf](./resource/R05/7LO1M-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [7LO1M-ocr.txt](./resource/R05/7LO1M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [7LO1M-ocr.pdf](./resource/R05/7LO1M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [7LO1M-scan.pdf](./7LO1M-scan.pdf) |                                             | Scan of document attached to the tube | 
+| [7LO1M-ocr.txt](./7LO1M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [7LO1M-ocr.pdf](./7LO1M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
 
 ## Notes
 

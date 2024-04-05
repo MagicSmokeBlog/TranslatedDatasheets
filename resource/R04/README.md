@@ -1,10 +1,10 @@
 # Resource R04
 
-| Resource                                            | Source                                      | Remark                                |
-|-----------------------------------------------------|---------------------------------------------|---------------------------------------|
-| [FEU-115-scan.pdf](./resource/R04/FEU-115-scan.pdf) |                                             | Scan of document attached to the tube | 
-| [FEU-115-ocr.txt](./resource/R04/FEU-115-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
-| [FEU-115-ocr.pdf](./resource/R04/FEU-115-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| Resource                               | Source                                      | Remark                                |
+|----------------------------------------|---------------------------------------------|---------------------------------------|
+| [FEU-115-scan.pdf](./FEU-115-scan.pdf) |                                             | Scan of document attached to the tube | 
+| [FEU-115-ocr.txt](./FEU-115-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
+| [FEU-115-ocr.pdf](./FEU-115-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/) | See notes below                       |
 
 ## Notes
 

@@ -1,10 +1,10 @@
 # Resource R07
 
-| Resource                                          | Source                                                                          | Remark                                                   |
-|---------------------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------|
-| [ITM2-M-scan.pdf](./resource/R07/ITM2-M-scan.pdf) | [ITM2Mdatasheet.PDF](https://www.industrialalchemy.org/pdf2/ITM2Mdatasheet.PDF) | [Industrial Alchemy](https://www.industrialalchemy.org/) | 
-| [ITM2-M-ocr.txt](./resource/R07/ITM2-M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
-| [ITM2-M-ocr.pdf](./resource/R07/ITM2-M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
+| Resource                             | Source                                                                          | Remark                                                   |
+|--------------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------|
+| [ITM2-M-scan.pdf](./ITM2-M-scan.pdf) | [ITM2Mdatasheet.PDF](https://www.industrialalchemy.org/pdf2/ITM2Mdatasheet.PDF) | [Industrial Alchemy](https://www.industrialalchemy.org/) | 
+| [ITM2-M-ocr.txt](./ITM2-M-ocr.txt)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
+| [ITM2-M-ocr.pdf](./ITM2-M-ocr.pdf)   | [ABBYY OCR](https://www.abbyy.com/ocr-sdk/)                                     | See notes below                                          |
 
 ## Notes
 
